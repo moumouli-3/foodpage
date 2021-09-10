@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(124, 155, 255, 0.192);
+}
+nav{
+    box-shadow:0px 0px 30px rgb(75, 75, 221);
+}
+.food{
+   display: flex;
+   justify-content: space-around;
+   padding: 30px;
+   margin-top: 50px;
+}
+#main{
+    position: fixed;
+}
+.types img
+{
+   width: 300px;
+    height: 280px;
+    box-shadow: 5px 5px 5px rgb(177, 177, 228);
+
+}
+.types img:hover{
+    box-shadow: 5px 5px 5px rgb(7, 7, 104);
+    transition: ease 0.2s;
+}
+.types p{
+    color: black;
+    font-size: 25px;
+    font-family: cursive;
+    /* margin-block: 0px; */
+    margin-block-start: 3px;
+    margin-block-end: 5px;
+}
+.types a{
+    color: black;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
